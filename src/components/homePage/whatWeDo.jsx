@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { MdArrowOutward } from "react-icons/md";
 const WhatWeDo = () => {
     const [Limit, setLimit] = useState(1);
-    const globalClass = "min-h-[400px] flex items-end relative p-6 bg-cover rounded-2xl overflow-hidden"
+    const globalClass = "min-h-[400px] cursor-pointer flex items-end relative p-6 bg-cover rounded-2xl overflow-hidden"
 
 
     return (
