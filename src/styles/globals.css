@@ -57,6 +57,9 @@
   .h1-semibold {
     @apply text-[36px] font-semibold leading-[140%] tracking-tighter;
   }
+  .h2-semibold {
+    @apply text-[28px] font-semibold leading-[140%] tracking-tighter;
+  }
 
   .base-semibold {
     @apply text-[22px] font-semibold leading-[110%] tracking-tighter;

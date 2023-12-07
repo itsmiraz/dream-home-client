@@ -50,7 +50,6 @@ const SearchBar = () => {
     ];
 
 
-
     return (
         <div className="bg-white px-4 py-4 w-full rounded-2xl mt-4">
             <div className="flex gap-x-4">
