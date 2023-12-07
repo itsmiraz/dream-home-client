@@ -2,6 +2,7 @@ import React from 'react';
 import logo from '/public/images/logos/dream-home-logo.png'
 import Image from 'next/image';
 import { Button } from "@/components/ui/button"
+import Link from 'next/link';
 
 
 const Header = () => {
@@ -26,10 +27,16 @@ const Header = () => {
             </ul>
             <ul className='flex justify-center gap-x-4 '>
                 <li>
-                    <Button variant="outline">Sign In</Button>
+                    <Link href={'/auth/login'}>
+                        <Button variant="outline">Sign In</Button>
+                    </Link>
                 </li>
                 <li>
-                    <Button >Sign Up</Button>
+                    <Link href={'/auth/register'}>
+
+                        <Button >Sign Up</Button>
+                    </Link>
+
                 </li>
             </ul>
         </header>
