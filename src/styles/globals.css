@@ -73,6 +73,9 @@
   .base-normal {
     @apply text-[14px] font-medium leading-[110%] tracking-tighter;
   }
+  .base-light {
+    @apply text-[14px] font-normal leading-[130%] tracking-normal;
+  }
 
   .h2-bold {
     @apply text-[30px] font-bold leading-[140%] tracking-tighter;
